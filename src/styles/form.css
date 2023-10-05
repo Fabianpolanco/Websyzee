@@ -17,8 +17,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--color-black);
     color: var(--color-white);
+    background-color: var(--color-black);
+
 }
 
 .register-form{
@@ -46,20 +47,25 @@
     padding: 20px;
     border-radius: 52px 0px 0px 52px;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    text-align: center;
+    gap: 5rem;
 }
 
 .texto-form h2{
     font-family: var(--fonts-principal);
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: #000;
+    width: 553px;
 }
+
+
 
 .contaier-box-form{
     display: flex;
     align-items: center;
     gap: 1rem;
+
 }
 
 .box-form{
@@ -67,8 +73,26 @@
     height: 214px;
     border-radius: 30px;
     background-color: var(--color-white);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
 }
 
+.box-form img{
+    width: 100%;
+}
+
+
+/*textarea*/
+
+textarea{
+    border: none;
+    background: none;
+    border-bottom: solid 1px var(--color-fontBlack);
+    width: 100%;
+    outline: none;
+}
 
 
 /*Formulario*/
@@ -96,4 +120,19 @@ input{
     border: none;
     outline: none;
     border-bottom: 1px solid var(--color-fontBlack);
+}
+
+.btn-form{
+    padding: 10px 20px;
+    background-color: var(--color-black);
+    color: var(--color-form);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-form:hover{
+    color: #ffff;
+    transform: scale(1.1);
 }
