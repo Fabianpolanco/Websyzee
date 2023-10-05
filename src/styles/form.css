@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+    --fonts-principal: "IBM Plex Sans", sans-serif;
+    --color-background: #f2f2f2;
+    --color-black: #0d0d0d;
+    --color-white: #ffff;
+    --color-fontBlack: #000;
+    --color-form: #D2F90A;
+  }
+
+
+.container-formulario{
+    width: 100%;
+    padding: 40px;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.register-form{
+    margin-bottom: 40px;
+}
+.register-form h2{
+    font-family: var(--fonts-principal);
+    font-size: 3.2rem;
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    width: 1535px;
+    height: 658px;
+    border-radius: 52px;
+    background-color: var(--color-background);
+}
+
+.container-texto{
+    background-color: var(--color-form);
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 52px 0px 0px 52px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-form h2{
+    font-family: var(--fonts-principal);
+    font-size: 2rem;
+    color: #000;
+}
+
+.contaier-box-form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-form{
+    width: 203px;
+    height: 214px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+}
+
+
+
+/*Formulario*/
+
+.formulario{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    padding: 20px;
+    color: #000;
+    font-family: var(--fonts-principal);
+}
+label{
+    font-family: var(--fonts-principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color-fontBlack);
+}

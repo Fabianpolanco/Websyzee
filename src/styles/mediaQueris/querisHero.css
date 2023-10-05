@@ -7,12 +7,12 @@
 }
 
 /* 2xl */
-@media screen and (max-width: 1700px){
-  .circulo{
+@media screen and (max-width: 1700px) {
+  .circulo {
     position: absolute;
     bottom: 0%;
   }
-  footer{
+  footer {
     position: relative;
     top: 83px;
     margin: 0;
@@ -48,7 +48,7 @@
 
 /* md */
 @media screen and (max-width: 920px) {
-  .logo{
+  .logo {
     width: 50px;
   }
   header {
@@ -73,10 +73,10 @@
 
 /* sm */
 @media screen and (max-width: 743px) {
-  header .logo{
+  header .logo {
     width: 45px;
   }
-  
+
   .websyze h1 {
     font-size: 13vh;
   }
@@ -94,123 +94,124 @@
 
 /* xs */
 @media screen and (max-width: 620px) {
-  header .logo{
+  header .logo {
     width: 40px;
   }
-  
+
   .websyze h1 {
     font-size: 10vh;
   }
   .websyze h2 {
     font-size: 20px;
   }
-  .btn{
+  .btn {
     left: 25%;
   }
 }
 
-@media screen and (max-width: 577px){
-  header .logo{
+@media screen and (max-width: 577px) {
+  header .logo {
     width: 36px;
   }
-  
-  .abrir, .cerrar{
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        display: block;
-    }
-    
-    nav{
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-color: var(--color-black);
-        padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-        opacity: 0;
-        visibility: hidden;
-        z-index: 9;
-    }
-    nav.visible{
-      opacity: 1;
-      visibility: visible;
-    }
-    header{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
 
-    .nav-list{
-        flex-direction: column;
-        align-items: end;
-    }
-    .nav-list li .register{
-      display: block;
-    }
-    .nav-list li .sesion{
-      display: block;
-    }
-    .nav-list li a{
-        color: white;
-    }
-    .list-hideen{
-      display: none;
-    }
+  .abrir,
+  .cerrar {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-black);
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+  }
+  nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+  }
+  .nav-list li .register {
+    display: block;
+  }
+  .nav-list li .sesion {
+    display: block;
+  }
+  .nav-list li a {
+    color: white;
+  }
+  .list-hideen {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 457px){
-  header .logo{
+@media screen and (max-width: 457px) {
+  header .logo {
     width: 32px;
   }
-  .websyze h1{
+  .websyze h1 {
     font-size: 8vh;
   }
-  .websyze h2{
+  .websyze h2 {
     font-size: 13px;
   }
-  .texto p{
+  .texto p {
     font-size: 11px;
   }
-  .btm{
+  .btm {
     padding: 5px;
   }
-  .btn a{
+  .btn a {
     font-size: 10px;
   }
-  .conten-footer h2{
+  .conten-footer h2 {
     font-size: 3vh;
   }
-  i{
+  i {
     font-size: 4vh;
   }
 }
 
-@media screen and (max-width: 367px){
-  .websyze h1{
+@media screen and (max-width: 367px) {
+  .websyze h1 {
     font-size: 4.3vh;
   }
-  .websyze h2{
+  .websyze h2 {
     font-size: 1vh;
   }
-  .texto p{
+  .texto p {
     font-size: 10px;
   }
-  .btn{
+  .btn {
     padding: 4px 8px;
     text-align: center;
   }
-  .btn a{
+  .btn a {
     font-size: 7px;
     text-align: center;
   }
-  .conten-footer h2{
+  .conten-footer h2 {
     font-size: 2.5vh;
   }
-  i{
+  i {
     font-size: 3.4vh;
   }
 }
