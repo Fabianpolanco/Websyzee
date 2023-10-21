@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+    --fonts-principal: "IBM Plex Sans", sans-serif;
+    --color-background: #f2f2f2;
+    --color-black: #0d0d0d;
+    --color-white: #ffff;
+    --color-fontBlack: #0000;
+  }
+
+.container-ruta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#websyze-ruta{
+    font-size: 1vw;
+    font-family: var(--fonts-principal);
+    color: var(--color-background);
+}
+#bienvenida{
+    font-size: 10vw;
+    color: var(--color-background);
+    font-family: var(--fonts-principal);
+}

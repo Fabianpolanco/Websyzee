@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+:root {
+  --fonts-principal: "IBM Plex Sans", sans-serif;
+  --color-background: #f2f2f2;
+  --color-black: #0d0d0d;
+  --color-white: #ffff;
+  --color-fontBlack: #0000;
+  --color-gris: #bfbfbf;
+  --color-gris-oscuro: #737373;
+  --color-negro-claro: #292929;
+}
+
+/* 2xl */
+@media screen and (max-width: 1700px) {
+    .form{
+        width: 1335px;
+    }
+}
+
+/* lg */
+@media screen and (max-width: 1400px) {
+    .form{
+        width: 1235px;
+    }
+    .texto-form h2{
+        font-size: 2.5rem;
+    }
+    .box-form{
+        width: 133px;
+        height: 133px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .form{
+        width: 1035px;
+    }
+    .texto-form{
+        margin-left: 60px;
+    }
+    .texto-form h2{
+        font-size: 2.5rem;
+    }
+    .contaier-box-form{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .form{
+        width: 935px;
+    }
+    .texto-form{
+        margin-left: 100px;
+    }
+    .texto-form h2{
+        font-size: 2.4rem;
+    }
+    .box-form{
+        width: 123px;
+        height: 123px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .form{
+        width: 835px;
+    }
+    .texto-form{
+        margin-left: 40px;
+    }
+    .texto-form h2{
+        font-size: 2rem;
+        width: 400px;
+    }
+    .box-form{
+        width: 113px;
+        height: 113px;
+    }
+    label{
+        font-size: 1rem;
+    }
+}
+
+/* sm */
+
+@media screen and (max-width: 879px) {
+    .form{
+        width: 735px;
+    }
+    .texto-form{
+        margin-left: 80px;
+    }
+    .texto-form h2{
+        font-size: 1.7rem;
+        width: 400px;
+    }
+    .box-form{
+        width: 103px;
+        height: 103px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .form{
+        width: 635px;
+    }
+    .texto-form{
+        margin-left: 80px;
+    }
+    .texto-form h2{
+        font-size: 1.5rem;
+        width: 350px;
+    }
+    .box-form{
+        width: 83px;
+        height: 83px;
+    }
+}
+
+/* xs */
+@media screen and (max-width: 691px) {
+    .form{
+        flex-direction: column;
+    }
+    .container-texto{
+        width: 100%;
+        border-radius: 52px 52px 0px 0px;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .texto-form{
+        margin: 0%;
+    }
+    .texto-form h2{
+        font-size: 2rem;
+    }
+    .box-form{
+        width: 123px;
+        height: 123px;
+    }
+    .contaier-box-form{
+        flex-direction: initial;
+    }
+}
+
+@media screen and (max-width: 577px) {
+}
+
+@media screen and (max-width: 483px) {
+}
+
+@media screen and (max-width: 377px) {
+}
